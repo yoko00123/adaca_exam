@@ -165,19 +165,19 @@ button {
 
   function CheckForm1(){
   
-var menu = document.querySelector('input[name="menu"]:checked').value;
+let menu = document.querySelector('input[name="menu"]:checked').value;
 
-var dish = document.querySelector('input[name="dish"]:checked').value;
+let dish = document.querySelector('input[name="dish"]:checked').value;
 
-var addons = document.querySelector('input[name="addons"]:checked').value;
+let addons = document.querySelector('input[name="addons"]:checked').value;
 
-var m = document.getElementById('menu').checked;
+let m = document.getElementById('menu').checked;
   
  if(menu == 101 ){
 const rule = [201, 202, 206, 302];
 
-var s = rule.includes(dish);
-var t = rule.includes(addons);
+let s = rule.includes(dish);
+let t = rule.includes(addons);
 
 if(s == true || t == true){
 document.getElementById("b1").style.backgroundColor='gray'; 
@@ -189,10 +189,10 @@ document.getElementById("b1").style.backgroundColor='#04AA6D';
 
 for (let x in rule) {
 
-var idof = String(rule[x]);
+let idof = String(rule[x]);
   //document.getElementById(idof).disabled = true;
-  var l = 'l';
-  var ln = l.concat(idof);
+  let l = 'l';
+  let ln = l.concat(idof);
   document.getElementById(ln).style.textDecoration = "line-through";
 
 }
@@ -200,8 +200,8 @@ var idof = String(rule[x]);
  if(menu == 102 ){
 const rule = [201, 301];
 
-var s = rule.includes(dish);
-var t = rule.includes(addons);
+let s = rule.includes(dish);
+let t = rule.includes(addons);
 
 if(s == true || t == true){
 document.getElementById("b1").style.backgroundColor='gray'; 
@@ -214,10 +214,10 @@ document.getElementById("b1").style.backgroundColor='#04AA6D';
 
 for (let x in rule) {
 
-var idof = String(rule[x]);
+let idof = String(rule[x]);
  // document.getElementById(idof).disabled = true;
-  var l = 'l';
-  var ln = l.concat(idof);
+  let l = 'l';
+  let ln = l.concat(idof);
   document.getElementById(ln).style.textDecoration = "line-through";
 
 }
@@ -225,8 +225,8 @@ var idof = String(rule[x]);
  if(menu == 103 ){
 const rule = [202];
 
-var s = rule.includes(dish);
-var t = rule.includes(addons);
+let s = rule.includes(dish);
+let t = rule.includes(addons);
 
 if(s == true || t == true){
 document.getElementById("b1").style.backgroundColor='gray'; 
@@ -239,10 +239,10 @@ document.getElementById("b1").style.backgroundColor='#04AA6D';
 
 for (let x in rule) {
 
-var idof = String(rule[x]);
+let idof = String(rule[x]);
  // document.getElementById(idof).disabled = true;
-  var l = 'l';
-  var ln = l.concat(idof);
+  let l = 'l';
+  let ln = l.concat(idof);
   document.getElementById(ln).style.textDecoration = "line-through";
 
 }
@@ -252,8 +252,8 @@ var idof = String(rule[x]);
  if(menu == 204){
 const rule = [304];
 
-var s = rule.includes(dish);
-var t = rule.includes(addons);
+let s = rule.includes(dish);
+let t = rule.includes(addons);
 
 if(s == true || t == true){
 document.getElementById("b1").style.backgroundColor='gray'; 
@@ -266,10 +266,10 @@ document.getElementById("b1").style.backgroundColor='#04AA6D';
 
 for (let x in rule) {
 
-var idof = String(rule[x]);
+let idof = String(rule[x]);
  // document.getElementById(idof).disabled = true;
-  var l = 'l';
-  var ln = l.concat(idof);
+  let l = 'l';
+  let ln = l.concat(idof);
   document.getElementById(ln).style.textDecoration = "line-through";
 
 }
@@ -279,8 +279,8 @@ var idof = String(rule[x]);
  if(menu == 205){
 const rule = [304];
 
-var s = rule.includes(dish);
-var t = rule.includes(addons);
+let s = rule.includes(dish);
+let t = rule.includes(addons);
 
 if(s == true || t == true){
 document.getElementById("b1").style.backgroundColor='gray'; 
@@ -293,10 +293,10 @@ document.getElementById("b1").style.backgroundColor='#04AA6D';
 
 for (let x in rule) {
 
-var idof = String(rule[x]);
+let idof = String(rule[x]);
  // document.getElementById(idof).disabled = true;
-  var l = 'l';
-  var ln = l.concat(idof);
+  let l = 'l';
+  let ln = l.concat(idof);
   document.getElementById(ln).style.textDecoration = "line-through";
 
 }
